@@ -3,6 +3,8 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
+require('dotenv').config();
+
 const PORT = 3000;
 
 const app = express();
